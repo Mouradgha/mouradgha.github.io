@@ -276,8 +276,9 @@ h2.about-head {
   text-decoration:none ;
 }
 #toggle-menu .link-skil:hover{
-  color:black; 
+  color:white; 
   text-decoration:none ;
+  background:transparent;
 }
 
 
