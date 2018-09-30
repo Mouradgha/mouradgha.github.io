@@ -136,10 +136,10 @@ hr.intro-divider {
 .icon-feature:hover {
    transform:scale(1.1);
    transition: 0.2s;
-   -webkit-transform:scale(1.1);
-   -moz-transform:scale(1.1);
-   -ms-transform:scale(1.1);
-   -o-transform:scale(1.1);
+   -webkit-transform:;
+   -moz-transform:;
+   -ms-transform:;
+   -o-transform:;
    -webkit-transition: 0.2s;
    -moz-transition: 0.2s;
    -ms-transition: 0.2s;
@@ -160,10 +160,10 @@ hr.intro-divider {
    border: 2px outset rgba(0, 0, 0, 0.9);
    background: rgba(0,0,0, 0.9);
    color: #fff;
-   -webkit-transform:scale(1.1);
-   -moz-transform:scale(1.1);
-   -ms-transform:scale(1.1);
-   -o-transform:scale(1.1);
+   -webkit-transform:;
+   -moz-transform:;
+   -ms-transform:;
+   -o-transform:;
    -webkit-transition: 0.2s;
    -moz-transition: 0.2s;
    -ms-transition: 0.2s;
@@ -272,7 +272,9 @@ h2.about-head {
   height:500px;
 }
 
-
+.about-section #toggle-menu .sub-menu.link-skil{
+  text-decoration:none ;
+}
   /*************** @media for about section *************/
 
 @media(max-width:1199px),@media(max-width:767px), @media (max-width : 600px) { 
